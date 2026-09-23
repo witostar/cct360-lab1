@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* parallax sections */
+.bg {
+    position: relative;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sunrise {
+    background-image: url("images/sunrise.jpg");
+}
+
+.noon {
+    background-image: url("images/noon.jpg");
+}
+
+.sunset {
+    background-image: url("images/sunset.jpg");
+}
+
+.night {
+    background-image: url("images/night.jpg");
+}
+
+/* title in the middle */
+.caption {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+/* campfire image */
+.center-img {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: 300px;
+    margin-left: -150px;
+}
+
+/* text between sections */
+.text {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fdf6ec;
+}
